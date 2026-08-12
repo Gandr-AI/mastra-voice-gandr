@@ -22,4 +22,4 @@ const voice = new GandrVoice({
 });
 ```
 
-Gandr renders WAV by default. The free key starts at 100,000 tokens at gandr.ai.
+Gandr renders WAV by default. The free key starts at 50,000 tokens at gandr.ai.
