@@ -1,6 +1,6 @@
 {
   "name": "mastra-voice-gandr",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Gandr text-to-speech voice for Mastra agents",
   "type": "module",
   "main": "dist/index.js",
