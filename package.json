@@ -1,0 +1,43 @@
+{
+  "name": "mastra-voice-gandr",
+  "version": "0.1.0",
+  "description": "Gandr text-to-speech voice for Mastra agents",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mastra",
+    "voice",
+    "tts",
+    "text-to-speech",
+    "gandr"
+  ],
+  "author": "Sam Alghaithi <sam@gandr.ai>",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gandr-AI/mastra-voice-gandr"
+  },
+  "peerDependencies": {
+    "@mastra/core": ">=0.13.0"
+  },
+  "devDependencies": {
+    "@mastra/core": "^0.13.0",
+    "typescript": "^5.5.0"
+  }
+}
