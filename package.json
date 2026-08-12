@@ -1,6 +1,6 @@
 {
   "name": "mastra-voice-gandr",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Gandr text-to-speech voice for Mastra agents",
   "type": "module",
   "main": "dist/index.js",
@@ -22,9 +22,13 @@
   },
   "keywords": [
     "mastra",
+    "mastra-ai",
     "voice",
     "tts",
     "text-to-speech",
+    "speech-synthesis",
+    "voice-ai",
+    "voice-agents",
     "gandr"
   ],
   "author": "Sam Alghaithi <sam@gandr.ai>",
